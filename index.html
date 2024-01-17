@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>BuscaCEP</title>
+</head>
+<body>
+    <main>
+        <div>
+        <h2>Busca CEP</h2>
+        <label for="cep">CEP</label>
+        <input type="text" id="cep" placeholder=" Digite o CEP"> <br>
+        <input type="submit" onclick="clicarBotao()" class="bnt" id="submit"><br>
+        <label for="logradouro">Endereço</label>
+        <input type="text" id="endereco" readonly placeholder=" ...">
+        <label for="bairro">Bairro</label>
+        <input type="text" id="bairro" readonly placeholder=" ...">
+        <label for="cidade">Cidade</label>
+        <input type="text" id="cidade" readonly placeholder=" ...">
+        <label for="estado">Estado</label>
+        <input type="text" id="estado" readonly placeholder=" ...">
+        <label for="complemento">Complemento</label>
+        <input type="text" id="complemento" readonly placeholder=" ..."><br>
+        <input type="reset" onclick="limparDados()" class="bnt" id="submit"><br> 
+    </div>
+    </main> 
+    <script src="app.js"></script>
+    
+</body>
+</html>
